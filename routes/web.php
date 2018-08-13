@@ -30,3 +30,7 @@ Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 
 //user用户模型路由
 Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
+//等同于下列三个路由
+//Route::get('/users/{user}', 'UsersController@show')->name('users.show');
+//Route::get('/users/{user}/edit', 'UsersController@edit')->name('users.edit');
+//Route::patch('/users/{user}', 'UsersController@update')->name('users.update');
