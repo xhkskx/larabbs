@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'larabbs.test'),
+    'url' => env('http://larabbs.test', 'http://larabbs.test'),
 
     /*
     |--------------------------------------------------------------------------
