@@ -12,7 +12,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title', 'LaraBBS') - Larabbs</title>
-
+    <meta name="description" content="@yield('description', 'php，laravel，学习笔记，感悟')" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
